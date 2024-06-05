@@ -102,10 +102,7 @@ a.login:hover {
   border-bottom-left-radius: 100px;
 
 }
-h1{
-  position: relative;
-  right: 5px;
-}
+
 
 
 span {
@@ -660,11 +657,13 @@ footer {
   .hero-section {
     flex-direction: column;
     padding: 30px 20px;
+    
   }
 
-  .hero-content h1{
-    text-align: left;
+  .hero-section .hero-content h1{
     padding-left: 0;
+    display: inline;
+
   }
 
   .problems,
