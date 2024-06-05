@@ -657,7 +657,7 @@ footer {
 @media (max-width: 768px) {
   .hero-section {
     flex-direction: column;
-    padding: 50px 20px;
+    padding: 40px 20px;
   }
 
   .problems,
@@ -666,7 +666,9 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+.review-card{
 
+}
   .problem-target .tabs {
     flex-direction: column;
     align-items: center;
@@ -678,9 +680,65 @@ footer {
   }
 }
 
-@media screen and (max-width: 450px) {
-  .problem-target .tab-content.active {
-    height: 500px;
-  }
+@media (max-width: 480px) {
+    .navbar .logo a, .navbar .cta a {
+        font-size: 18px;
+    }
 
+    .hero-section .hero-content h1 {
+        font-size: 24px;
+    }
+
+    .hero-section .hero-content p {
+        font-size: 16px;
+    }
+
+    .notification .notititle {
+        font-size: 16px;
+    }
+
+    .notification .notibody {
+        font-size: 14px;
+    }
+
+    .card .card-title {
+        font-size: 18px;
+    }
+
+    .card .small-desc {
+        font-size: 14px;
+    }
+
+    .review-card h3 {
+        font-size: 16px;
+    }
+
+    .review-card p {
+        font-size: 14px;
+    }
+
+    .tab-link {
+        font-size: 16px;
+    }
+
+    .tab-content h3 {
+        font-size: 18px;
+    }
+
+    .tab-content p {
+        font-size: 14px;
+    }
+
+    .cta-section h2 {
+        font-size: 20px;
+    }
+
+    .cta-section .input, .cta-section .button--submit {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .footer-content h3, .footer-content p {
+        font-size: 14px;
+    }
 }
