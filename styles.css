@@ -666,9 +666,6 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-.review-card{
-
-}
   .problem-target .tabs {
     flex-direction: column;
     align-items: center;
@@ -708,9 +705,11 @@ footer {
     .card .small-desc {
         font-size: 14px;
     }
-    .review-card {
-      padding: 30px; 
-  }
+    
+    .review-cards{
+      position: relative;
+      right: 5px;
+    }
 
     .review-card h3 {
         font-size: 16px;
