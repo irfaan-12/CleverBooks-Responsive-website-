@@ -92,7 +92,7 @@ a.login:hover {
 /* Hero Section Styles */
 .hero-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: stretch;
   padding: 20px 40px;
   padding-top: 25px;
   background-color: rgb(253, 219, 206);
@@ -121,6 +121,7 @@ span {
   font-size: 3em;
   margin-bottom: 20px;
   color: #000;
+  display: inline;
 }
 
 .hero-content p {
@@ -130,21 +131,7 @@ span {
   color: black;
 }
 
-.hero-button {
-  display: inline-block;
-  padding: 15px 30px;
-  background-color: #ff7f50;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
 
-.hero-button:hover {
-  background-color: #ff4500;
-}
 
 .subtext {
   margin-top: 20px;
@@ -689,8 +676,18 @@ footer {
     }
     .hero-section .hero-content{
      padding-top: 0;
+     
     }
-
+    .hero-section .hero-content{
+       display: inline;
+       justify-content: space-evenly;
+       flex: 1;
+    }
+.hero-content{
+  max-width: 480px;
+  margin: 0;
+  padding: 20px;
+}
     .hero-section{
       padding-top: 5px;
     }
