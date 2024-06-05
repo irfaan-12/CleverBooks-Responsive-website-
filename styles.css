@@ -93,8 +93,7 @@ a.login:hover {
 .hero-section {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  padding: 10px 40px;
+  padding: 20px 40px;
   background-color: rgb(253, 219, 206);
   background-size: cover;
   background-position: center;
@@ -658,6 +657,11 @@ footer {
   .hero-section {
     flex-direction: column;
     padding: 40px 20px;
+  }
+
+  .hero-content h1{
+    text-align: left;
+    padding-left: 0;
   }
 
   .problems,
