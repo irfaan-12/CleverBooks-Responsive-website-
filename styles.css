@@ -708,6 +708,9 @@ footer {
     .card .small-desc {
         font-size: 14px;
     }
+    .review-card {
+      padding: 30px; 
+  }
 
     .review-card h3 {
         font-size: 16px;
