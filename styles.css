@@ -102,6 +102,10 @@ a.login:hover {
   border-bottom-left-radius: 100px;
 
 }
+h1{
+  position: relative;
+  right: 5px;
+}
 
 span {
   color: salmon;
