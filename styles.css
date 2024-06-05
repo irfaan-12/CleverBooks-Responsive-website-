@@ -94,6 +94,7 @@ a.login:hover {
   display: flex;
   justify-content: space-around;
   padding: 20px 40px;
+  padding-top: 25px;
   background-color: rgb(253, 219, 206);
   background-size: cover;
   background-position: center;
@@ -106,6 +107,7 @@ h1{
   right: 5px;
 }
 
+
 span {
   color: salmon;
 }
@@ -114,6 +116,7 @@ span {
   max-width: 50%;
   position: relative;
   bottom: 40px;
+  top: 25px;
 
 }
 
