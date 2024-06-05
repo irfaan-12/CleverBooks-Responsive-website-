@@ -705,10 +705,10 @@ footer {
     .card .small-desc {
         font-size: 14px;
     }
-    
+
     .review-cards{
       position: relative;
-      right: 5px;
+      right: 10px;
     }
 
     .review-card h3 {
