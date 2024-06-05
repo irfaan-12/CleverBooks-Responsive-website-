@@ -659,7 +659,7 @@ footer {
 @media (max-width: 768px) {
   .hero-section {
     flex-direction: column;
-    padding: 10px 20px;
+    padding: 30px 20px;
   }
 
   .hero-content h1{
@@ -690,6 +690,10 @@ footer {
     }
     .hero-section .hero-content{
      padding-top: 0;
+    }
+
+    .hero-section{
+      padding-top: 5px;
     }
 
     .hero-section .hero-content h1 {
